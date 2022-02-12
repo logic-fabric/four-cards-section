@@ -1,0 +1,36 @@
+// ======
+// COLORS
+// ======
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+$neutral-100: hsl(0, 0%, 98%);
+$neutral-300: hsl(229, 6%, 66%);
+$neutral-700: hsl(234, 12%, 34%);
+$neutral-900: hsl(240, 5%, 12%);
+
+// ==========
+// TYPOGRAPHY
+// ==========
+
+$font-title: "Poppins", sans-serif;
+$font-text: "Poppins", sans-serif;
+
+// =======================
+// TEXT AND HEADINGS SIZES
+// =======================
+
+$txt-size: 15px;
+
+$h1-size: 2.4 * $txt-size;
+$h2-size: $h1-size;
+$h3-size: 1.5 * $txt-size;
+
+// ====================================
+// BREAKPOINTS AND CONTAINERS MAX-WIDTH
+// ====================================
+
+$large-container-width: 1440px;
