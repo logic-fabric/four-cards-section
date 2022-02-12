@@ -1,0 +1,45 @@
+.card {
+  max-width: 25rem;
+  margin: 2rem 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  @include large-box-shadow;
+
+  text-align: left;
+
+  background: white;
+}
+
+.card__title {
+  margin: 0 0 1rem 0;
+  padding: 2.5rem 2.5rem 0 2.5rem;
+  border: 0 solid transparent;
+  border-width: 0.25rem 0 0 0;
+
+  &--supervisor {
+    border-color: $cyan;
+  }
+
+  &--team-builder {
+    border-color: $red;
+  }
+
+  &--karma {
+    border-color: $orange;
+  }
+
+  &--calculator {
+    border-color: $blue;
+  }
+}
+
+.card__text {
+  min-height: 4rem;
+  padding: 0 2.5rem;
+}
+
+.card__img {
+  padding: 1rem 2.5rem 2.5rem 2.5rem;
+
+  text-align: right;
+}

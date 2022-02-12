@@ -1,0 +1,7 @@
+// =================
+// BOX-SHADOW MIXINS
+// =================
+
+@mixin large-box-shadow {
+  box-shadow: 0rem 1rem 2rem -1rem $neutral-300;
+}

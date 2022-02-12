@@ -3,7 +3,7 @@
 // 1. Configuration and helpers:
 // - the 'abstracts/' folder should not output a single line of CSS if compiled on its own
 @import "abstracts/variables";
-// @import "abstracts/mixins";
+@import "abstracts/mixins";
 
 // 2. Vendors:
 @import "vendors/normalize";
@@ -21,9 +21,10 @@
 // @import "layout/footer";
 
 // 5. Components:
-// @import "components/card";
+@import "components/card";
 
 // 6. Pages specific styles:
+@import "layout/cards-section";
 // @import "pages/page-404";
 // @import "pages/home";
 

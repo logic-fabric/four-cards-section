@@ -1,0 +1,30 @@
+.cards-section {
+  margin: 3rem 0 0 0;
+  
+  &__title {
+    margin: 0;
+  }
+
+  &__headline {
+    margin: 0.75rem 0 1.5rem 0;
+  }
+
+  &__standfirst {
+    max-width: 34rem;
+    margin: auto;
+
+    font-size: 1.1 * $txt-size;
+  }
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0;
+
+  &__column {
+    flex: 1;
+  }
+}
