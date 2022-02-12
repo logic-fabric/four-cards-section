@@ -37,13 +37,21 @@ section {
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: 1.75 * $txt-size;
   font-weight: 200;
+
+  @media (min-width: $medium-breakpoint) {
+    font-size: $h1-size;
+  }
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: 1.75 * $txt-size;
   font-weight: 600;
+
+  @media (min-width: $medium-breakpoint) {
+    font-size: $h1-size;
+  }
 }
 
 h3 {
@@ -56,3 +64,5 @@ p {
   font-size: $txt-size;
   line-height: 1.75;
 }
+
+

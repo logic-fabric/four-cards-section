@@ -1,6 +1,6 @@
 .card {
   max-width: 25rem;
-  margin: 2rem 1rem;
+  margin: 0.75rem 0;
   border-radius: 0.5rem;
   overflow: hidden;
   @include large-box-shadow;
@@ -8,13 +8,21 @@
   text-align: left;
 
   background: white;
+
+  @media (min-width: $medium-breakpoint) {
+    margin: 2rem 1rem;
+  }
 }
 
 .card__title {
   margin: 0 0 1rem 0;
-  padding: 2.5rem 2.5rem 0 2.5rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
   border: 0 solid transparent;
   border-width: 0.25rem 0 0 0;
+
+  @media (min-width: $medium-breakpoint) {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
 
   &--supervisor {
     border-color: $cyan;
@@ -35,11 +43,29 @@
 
 .card__text {
   min-height: 4rem;
-  padding: 0 2.5rem;
+  padding: 0 1.5rem;
+
+  @media (min-width: $medium-breakpoint) {
+    padding: 0 2.5rem;
+  }
 }
 
 .card__img {
-  padding: 1rem 2.5rem 2.5rem 2.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
 
   text-align: right;
+
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  @media (min-width: $medium-breakpoint) {
+    padding: 1rem 2.5rem 2.5rem 2.5rem;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
 }
